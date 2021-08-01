@@ -1,0 +1,21 @@
+// Dark Theme Colors
+$dark-color-selection: #dd2764;
+$dark-color-background: #35383f;
+$dark-color-text: #b4c2e4;
+
+// Light Theme Colors
+$light-color-background: #dee1e9;
+
+// Default Colors
+$default-color-alert: #4fbd67;
+$default-color-warning: #c97d1a;
+$default-color-error: #bb1b1b;
+
+:root {
+  --color-app-background: $dark-color-background;
+  --color-header-background: $dark-color-background;
+  --color-main-panel-background: $dark-color-background;
+  --color-leftbar-background: $dark-color-background;
+  --color-text: $dark-color-text;
+  --color-error: $default-color-error;
+}

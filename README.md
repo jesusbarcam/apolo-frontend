@@ -1,2 +1,3 @@
-# apolo-frontend
-Graphic Frontend Interface of Apolo Project 
+# Deejock-frontend
+
+Graphic Frontend Interface of Deejock Project

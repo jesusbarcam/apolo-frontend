@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap');
+/*
+¡FIXME!
+Cuando REACT soporte la nueva etiqueta de SASS para
+importar modulos '@use' tendremos que cambiarla por la
+actual '@import' (Esta última esta actualmente declarada como deprecated)*/
+@import './sass/variables.scss';
+@import './sass/colors.scss';
+@import './sass/classes.scss';
+@import './sass/mixins.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  color: var(--color);
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weight-thin);
+}
