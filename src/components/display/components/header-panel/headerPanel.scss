@@ -2,4 +2,11 @@
   grid-area: headerpanel;
   background-color: var(--color-header-background);
   border: 1px solid violet;
+
+  .title {
+    font-size: var(--font-size-titles);
+  }
+  .subtitle {
+    font-size: var(--font-size-subtitles);
+  }
 }

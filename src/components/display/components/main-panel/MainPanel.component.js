@@ -7,9 +7,9 @@ import './mainPanel.scss';
  */
 const MainPanel = () => {
   return (
-    <div className="main-panel">
+    <section className="main-panel">
       <span>MainPanel Work!</span>
-    </div>
+    </section>
   );
 }; // MainPanel
 

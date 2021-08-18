@@ -10,7 +10,7 @@ import './deejock.scss';
 const Deejock = () => {
   return (
     <div className="deejock">
-      <Display></Display>
+      <Display mode="'desktop'"></Display>
     </div>
   );
 };

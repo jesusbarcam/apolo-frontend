@@ -7,9 +7,9 @@ import './leftPanel.scss';
  */
 const LeftbarPanel = () => {
   return (
-    <div className="leftpanel">
+    <aside className="leftpanel">
       <span>LeftPanel Work!</span>
-    </div>
+    </aside>
   );
 }; // LeftbarPanel
 

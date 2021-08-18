@@ -8,9 +8,10 @@ import './headerPanel.scss';
  */
 const HeaderPanel = () => {
   return (
-    <div className="header-panel">
-      <span>HeaderPanel Work!</span>
-    </div>
+    <header className="header-panel">
+      <span className="title">El titulo del HeaderPanel</span>
+      <span className="subtitle">Este es el subtitulo</span>
+    </header>
   );
 }; // HeaderPanel
 
