@@ -1,5 +1,10 @@
 .footer-panel {
+  background-color: var(--light-color-footer-background);
   grid-area: footerpanel;
-  border: 2px solid red;
-  min-height: 0.5rem;
+  padding: 0.2rem;
+  min-height: 4.7rem;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--dark-color-footer-background);
+  } //prefers-color-scheme
 } // footer-panel

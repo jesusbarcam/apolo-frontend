@@ -8,7 +8,7 @@ import './footerPanel.scss';
 const FooterPanel = () => {
   return (
     <footer className="footer-panel">
-      Este es el footer de la aplicación!
+      <span>Datos del Footer</span>
     </footer>
   );
 };

@@ -1,8 +1,15 @@
 .deejock {
-  border: 1px solid;
-  border-color: blue;
+  background-color: var(--light-color-background);
+  color: var(--light-color-text);
   margin: auto;
   margin-top: 0.5vh;
   height: 99vh;
   width: 99vw;
+
+  /*
+  If user has selected dark mode scheme */
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--dark-color-background);
+    color: var(--dark-color-text);
+  } //prefers-color-scheme
 }

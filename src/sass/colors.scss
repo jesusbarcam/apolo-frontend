@@ -1,21 +1,29 @@
-// Dark Theme Colors
-$dark-color-selection: #dd2764;
-$dark-color-background: #35383f;
-$dark-color-text: #b4c2e4;
-
-// Light Theme Colors
-$light-color-background: #dee1e9;
-
-// Default Colors
-$default-color-alert: #4fbd67;
-$default-color-warning: #c97d1a;
-$default-color-error: #bb1b1b;
+$light-color: hsl(224, 20%, 89%);
+$dark-color: hsl(224, 15%, 20%);
 
 :root {
-  --color-app-background: $dark-color-background;
+  // Light Variables
+  --light-color-text: hsl(0, 0%, 0%);
+  --light-color-background: hsl(220, 10%, 100%);
+  --light-color-leftbar-background: hsl(220, 10%, 92%);
+  --light-color-header-background: hsl(220, 10%, 88%);
+  --light-color-main-panel-background: hsl(220, 10%, 95%);
+  --light-color-footer-background: hsl(220, 10%, 80%);
+  // Dark variables
+  --dark-color-text: hsl(223, 48%, 84%);
+  --dark-color-background: hsl(220, 10%, 20%);
+  --dark-color-leftbar-background: hsl(220, 10%, 17%);
+  --dark-color-header-background: hsl(220, 10%, 13%);
+  --dark-color-main-panel-background: hsl(220, 10%, 15%);
+  --dark-color-footer-background: hsl(220, 10%, 10%);
+
   --color-header-background: $dark-color-background;
   --color-main-panel-background: $dark-color-background;
   --color-leftbar-background: $dark-color-background;
   --color-text: $dark-color-text;
+  --color-selection: #dd2764;
   --color-error: $default-color-error;
-}
+  --color-alert: #bb1b1b;
+  --color-warning: #c97d1a;
+  --color-info: #567cb4;
+} //root
