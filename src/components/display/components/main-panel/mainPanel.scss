@@ -1,8 +1,10 @@
 .main-panel {
   grid-area: mainpanel;
   background-color: var(--light-color-main-panel-background);
+  color: var(--light-color-text);
 
   @media (prefers-color-scheme: dark) {
     background-color: var(--dark-color-main-panel-background);
+    color: var(--dark-color-text);
   } //prefers-color-scheme
 } //main-panel

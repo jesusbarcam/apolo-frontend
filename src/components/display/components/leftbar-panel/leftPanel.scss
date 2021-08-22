@@ -2,6 +2,7 @@
   display: none;
   grid-area: leftpanel;
   background-color: var(--light-color-leftbar-background);
+  color: var(--light-color-text);
 
   @media (min-width: 800px) {
     display: block;
@@ -9,5 +10,6 @@
 
   @media (prefers-color-scheme: dark) {
     background-color: var(--dark-color-leftbar-background);
+    color: var(--dark-color-text);
   } //prefers-color-scheme
 } // leftpanel
